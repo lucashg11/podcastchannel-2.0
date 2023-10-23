@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="img/svg" href="/assets/icons/logo.svg">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css' integrity='sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ==' crossorigin='anonymous'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Blue Dot Podcast Channel</title>
+</head>
+<body>
+                                            <!--ENCABEZADO-->
+    <header class="header">
+        <div class="logo">
+            <img class="logo_img" src="./assets/icons/logo.svg" alt="Blue Dot Podcast Channel">
+            <a href="#"><span>Blue Dot Podcast Channel</span></a>
+        </div>
+        <nav class="menu_wrapper">
+            <label class="menu_icon" for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a class="menu_link" href="#episodes" >Episodes</a>
+                <a class="menu_link" href="#about" >About Us</a>
+                <a class="menu_link" href="#guest" >Guests</a>
+                <a class="menu_link" href="#topic" >Topics</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero_title">Hello <span class="hero_linethrough">World</span> <br> pale blue dot <span class="hero_dot">.</span></h1>
+            <p class="hero_description">A podcast that explores the world of programming and technology. New episodes, every Thursday, biweekly.</p>
+            <button class="hero_btn"><a href="#about">Learn more</a></button>
+        </section>
+
+        <section class="episodes" id="episodes">
+            <div class="episodes_content">
+                <h1 class="episodes_title">Episodes</h1>
+                <div class="episodes_players">
+                    <iframe class="episode_player" width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/5QGomlzm9bTyFpKV6HbR0f?si=16ada0d2626141c5" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episode_player" width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/27Aw7G4oY8G1VcTMehGa9L?si=9d39a84de800489b" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episode_player" width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/38H2eX5V02iD5bx7Zl2d82?si=4b127bbe44fa4dad" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episode_player" width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/0JzdHm2u5PQE49bq9tcgbw?si=d61170abdb374c0b" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about_wrapper">
+                <img class="about_img" src="./assets/images/phone.png" alt="">
+                <div class="about_content">
+                    <h1 class="about_title">Where we <br> come from</h1>
+                    <p class="about_description">Our posturings, our imagined self-impotance, the dilusion that we have some privileged position in the Universe, are challenged by this point of the light. <br><br>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="guests" id="guest">
+            <h1 class="guests_title">Stellar Guests</h1>
+            <div class="guests_gallery">
+                <img class="guests_gallery_item" src="./assets/images/grace-hopper.png" alt="">
+                <img class="guests_gallery_item" src="./assets/images/Katie-Bouman.png" alt="">
+                <img class="guests_gallery_item" src="./assets/images/Margaret_Hamilton.png" alt="">
+                <img class="guests_gallery_item" src="./assets/images/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="">
+                <img class="guests_gallery_item" src="./assets/images/Computer-operators-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.png" alt="">
+                <img class="guests_gallery_item" src="./assets/images/susan-kare.png" alt="">
+            </div>
+        </section>
+
+        <section class="topics" id="topic">
+            <h1 class="topics_title">Some of our <br> main topics</h1>
+            <div class="topics_wrapper">
+                <div class="topics_item">
+                    <img src="./assets/icons/icon1.svg" alt="">
+                    <p>Remote work</p>
+                </div>
+                <div class="topics_item">
+                    <img src="./assets/icons/icon2.svg" alt="">
+                    <p>Rethink programming</p>
+                </div>
+                <div class="topics_item">
+                    <img src="./assets/icons/icon3.svg" alt="">
+                    <p>Coding basics</p>
+                </div>
+                <div class="topics_item">
+                    <img src="./assets/icons/icon4.svg" alt="">
+                    <p>Informatic security</p>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <h1 class="news_title">Want to know <br> last news?</h1>
+            <button class="hero_btn"><a href="#episodes">Listen last Episode</a></button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_description">&#169; 2023- Hello blue pale dot</p>
+        <div class="social">
+            <a href=""><i class="fab fa-spotify"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-x-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
